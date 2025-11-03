@@ -1,0 +1,92 @@
+h4 {
+  font-size: 4vh;
+  border-top: none;
+  font-weight: bolder;
+}
+a.nav-link {
+  color: red;
+}
+header {
+  background-position: 0px 86px;
+  background-size: 93px 86px;
+  background-image: url(background.jpg);
+}
+.title {
+  filter: brightness(105%) contrast(100%) saturate(95%);
+  /* background: no-repeat; */
+  background-position: 0px 0px;
+  background-size: 139px 130%;
+  background-image: url(background.png);
+  font-size: xx-large;
+  color: red;
+  text-align: center;
+}
+* {
+  font-family: "Playpen Sans Arabic";
+}
+body {
+  height: 100vh;
+}
+.fixed-size {
+  width: 300px;
+  height: 230px;
+  object-fit: cover;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='red' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.card {
+  top: 5px;
+  border: none;
+  /* border: red; */
+}
+.navbar-nav {
+  --bs-nav-link-padding-x: 0;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: var(--bs-navbar-color);
+  --bs-nav-link-hover-color: #ffc107;
+  --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.btn-primary {
+  border-radius: 42px;
+  --bs-btn-color: #ff0018;
+  --bs-btn-bg: #fcc40a;
+  --bs-btn-border-color: #dc3545;
+  --bs-btn-hover-color: #ffc107;
+  --bs-btn-hover-bg: #dc3545;
+  --bs-btn-hover-border-color: #ffc107;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #ffc107;
+  --bs-btn-active-border-color: #dc3545;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #dc3545;
+  --bs-btn-disabled-border-color: #ffc107;
+}
+.card-title {
+  text-align: center;
+  margin-bottom: var(--bs-card-title-spacer-y);
+  color: var(--bs-card-title-color);
+}
+.col-6 {
+  gap: 6px;
+  display: grid;
+  flex: 0 0 auto;
+  width: 50%;
+  justify-items: center;
+}
+.btn {
+  height: 40px;
+  width: 191px;
+}
+.form-control {
+  border-radius: 22px;
+  border: 2.5px solid yellow;
+}
